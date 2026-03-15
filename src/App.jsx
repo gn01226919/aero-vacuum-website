@@ -31,7 +31,8 @@ export default function App() {
 
   const fetchImages = async () => {
     try {
-      const res = await axios.get(`${API}/api/images`)
+      const url = API ? `${API}/api/images` : '/images.json'
+      const res = await axios.get(url)
       setImages(res.data)
     } catch { }
   }
