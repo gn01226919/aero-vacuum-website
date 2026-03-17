@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <motion.nav style={{ backgroundColor: bg, backdropFilter: blur }} className="navbar">
       <div className="navbar-inner">
-        <a href="/" className="nav-logo">AERO</a>
+        <a href="/" className="nav-logo"><img src="/logo.svg" alt="AERO" height="32" /></a>
         <ul className="nav-links">
           <li><a href="#features">特色</a></li>
           <li><a href="#showcase">展示</a></li>
