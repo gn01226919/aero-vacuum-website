@@ -411,6 +411,9 @@
 }
 .footer-logo { font-size: 20px; font-weight: 700; letter-spacing: 4px; color: #fff; }
 .footer-copy { font-size: 13px; color: #86868b; }
+.footer-made-by { font-size: 11px; color: #48484a; margin-top: 2px; }
+.footer-made-by a { color: #48484a; text-decoration: none; transition: color 0.2s; }
+.footer-made-by a:hover { color: #86868b; }
 .footer-links { display: flex; gap: 24px; }
 .footer-links a { font-size: 13px; color: #86868b; text-decoration: none; transition: color 0.2s; }
 .footer-links a:hover { color: #fff; }
